@@ -1,0 +1,92 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    width:100%;
+}
+
+ul{
+  list-style-type: none;
+  background-color:#750505;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(128, 128, 128, 0.486);
+  border-radius: 5px;
+}
+
+li a{
+  float: right;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.ativa){
+  background-color: #FFB978
+}
+
+
+
+li img{
+  float: left;
+  padding-top: 10px;
+  padding-right: 25px;
+  width: 10%;
+  color: #000000;
+  text-align: left;
+}
+
+.sobre {
+  justify-content: center;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.logoFec {
+  height: 35px;
+  width: 15%;
+}
+
+.profile-pic {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    }
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+}
+
+.redes-links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#750505;
+    width: 16%;
+    height: 180px;
+    margin: 16px;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+}
+
+.redes-links:hover {
+    background-color: #FFB978;
+ }
+
+ 
+
+ 
